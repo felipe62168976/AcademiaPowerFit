@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand: #e10600;
-  --color-brand-dark: #b30500;
+  --color-brand: #db2777;
+  --color-brand-dark: #be185d;
   --color-ink: #0a0a0a;
   --color-steel: #1c1c1e;
   --font-display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
@@ -29,13 +29,34 @@ body {
 }
 
 @keyframes hero-in {
-  from { opacity: 0; transform: translateY(24px); }
-  to { opacity: 1; transform: none; }
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
-.hero-in { animation: hero-in 0.8s ease-out both; }
-.hero-in-delay { animation: hero-in 0.8s 0.2s ease-out both; }
+
+.hero-in {
+  animation: hero-in 0.8s ease-out both;
+}
+
+.hero-in-delay {
+  animation: hero-in 0.8s 0.2s ease-out both;
+}
 
 @media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after { animation: none !important; transition: none !important; }
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }

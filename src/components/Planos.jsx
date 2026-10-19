@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import { plans } from '../data/siteData'
+import { plans, planFeatures } from '../data/siteData'
 import SectionTitle from './SectionTitle'
 import Button from './Button'
 
@@ -28,16 +28,12 @@ export default function Planos({ onSelectPlan }) {
               </p>
               <p className="mt-1 text-xs text-zinc-400">Valor de exemplo, editável.</p>
               <ul className="mt-6 flex-1 space-y-3">
-                {p.features.map((f) => (
+                {[...planFeatures, p.highlight].map((f) => (
                   <li key={f} className="flex gap-3 text-zinc-200">
                     <Check className="mt-0.5 h-5 w-5 shrink-0 text-brand" aria-hidden="true" />
                     {f}
                   </li>
                 ))}
-                <li className="flex gap-3 text-zinc-200">
-                  <Check className="mt-0.5 h-5 w-5 shrink-0 text-brand" aria-hidden="true" />
-                  {p.highlight}
-                </li>
               </ul>
               <Button
                 href="#contato"
