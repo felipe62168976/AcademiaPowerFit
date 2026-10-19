@@ -16,12 +16,12 @@ export const siteInfo = {
 
 // Imagens de exemplo (SVG). Troque por fotos reais em public/images/.
 export const images = {
-  hero: '/images/hero.svg',
-  musculacao: '/images/musculacao.svg',
-  cardio: '/images/cardio.svg',
-  funcional: '/images/funcional.svg',
-  vestiarios: '/images/vestiarios.svg',
-  orientacao: '/images/orientacao.svg',
+  hero: '/images/hero.jpg',
+  musculacao: '/images/musculacao.jpg',
+  cardio: '/images/cardio.jpg',
+  funcional: '/images/funcional.jpg',
+  vestiarios: '/images/vestiarios.jpg',
+  orientacao: '/images/orientacao.jpg',
 }
 
 export const plans = [
@@ -85,11 +85,11 @@ export const schedule = [
 ]
 
 export const structure = [
-  { title: 'Área de musculação', icon: 'Dumbbell', image: 'musculacao', alt: 'Área de musculação com halteres e máquinas (imagem ilustrativa)', text: 'Espaço dedicado ao treino de força, com equipamentos para todos os níveis.' },
-  { title: 'Cardio', icon: 'HeartPulse', image: 'cardio', alt: 'Equipamentos de cardio alinhados (imagem ilustrativa)', text: 'Equipamentos para exercícios cardiovasculares e condicionamento.' },
-  { title: 'Treino funcional', icon: 'Zap', image: 'funcional', alt: 'Espaço aberto para treino funcional (imagem ilustrativa)', text: 'Área livre para circuitos, mobilidade e treinos dinâmicos.' },
-  { title: 'Vestiários e apoio', icon: 'ShowerHead', image: 'vestiarios', alt: 'Vestiário com armários (imagem ilustrativa)', text: 'Vestiários e áreas de apoio para o seu conforto antes e depois do treino.' },
-  { title: 'Orientação profissional', icon: 'UserCheck', image: 'orientacao', alt: 'Instrutor orientando aluno (imagem ilustrativa)', text: 'Acompanhamento e orientação de profissionais (a confirmar com a academia).' },
+  { title: 'Área de musculação', icon: 'Dumbbell', image: 'musculacao', alt: 'Área de musculação com equipamentos de treino de força', text: 'Espaço dedicado ao treino de força, com equipamentos para todos os níveis.' },
+  { title: 'Cardio', icon: 'HeartPulse', image: 'cardio', alt: 'Equipamentos de cardio alinhados na área de condicionamento', text: 'Equipamentos para exercícios cardiovasculares e condicionamento.' },
+  { title: 'Treino funcional', icon: 'Zap', image: 'funcional', alt: 'Espaço aberto para treino funcional', text: 'Área livre para circuitos, mobilidade e treinos dinâmicos.' },
+  { title: 'Vestiários e apoio', icon: 'ShowerHead', image: 'vestiarios', alt: 'Vestiário com armários e áreas de apoio', text: 'Vestiários e áreas de apoio para o seu conforto antes e depois do treino.' },
+  { title: 'Orientação profissional', icon: 'UserCheck', image: 'orientacao', alt: 'Instrutor orientando aluno durante o treino', text: 'Acompanhamento e orientação de profissionais (a confirmar com a academia).' },
 ]
 
 export const contactInfo = {
