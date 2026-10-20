@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand: #e10600;
-  --color-brand-dark: #b30500;
+  --color-brand: #ff4d9d;
+  --color-brand-dark: #e6399b;
   --color-ink: #0a0a0a;
   --color-steel: #1c1c1e;
   --font-display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;

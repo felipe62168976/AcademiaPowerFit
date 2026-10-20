@@ -14,7 +14,7 @@ export const siteInfo = {
   ],
 }
 
-// Imagens de exemplo (SVG). Troque por fotos reais em public/images/.
+// Imagens reais em public/images/.
 export const images = {
   hero: '/images/hero.jpg',
   musculacao: '/images/musculacao.jpg',
@@ -25,15 +25,56 @@ export const images = {
 }
 
 export const plans = [
-  { id: 'mensal', name: 'Plano Mensal', price: 'R$ 99,90', period: '/mês', highlight: 'Ideal para quem deseja começar.', featured: false },
-  { id: 'trimestral', name: 'Plano Trimestral', price: 'R$ 89,90', period: '/mês', highlight: 'Melhor opção para quem busca consistência.', featured: true },
-  { id: 'anual', name: 'Plano Anual', price: 'R$ 79,90', period: '/mês', highlight: 'Condições especiais para contratos de longa duração.', featured: false },
+  {
+    id: 'mensal',
+    name: 'Plano Mensal',
+    price: 'R$ 99,90',
+    period: '/mês',
+    highlight: 'Ideal para quem deseja começar.',
+    featured: false,
+    features: [
+      'Acesso livre à musculação e cardio',
+      'Vestiários com armários',
+      'Sem taxa de matrícula',
+      'Cancelamento sem multa',
+    ],
+  },
+  {
+    id: 'trimestral',
+    name: 'Plano Trimestral',
+    price: 'R$ 89,90',
+    period: '/mês',
+    highlight: 'Melhor opção para quem busca consistência.',
+    featured: true,
+    features: [
+      'Acesso livre à musculação e cardio',
+      'Vestiários com armários',
+      'Avaliação física trimestral',
+      'Acesso à sala de treino funcional',
+      'Desconto na taxa de matrícula',
+    ],
+  },
+  {
+    id: 'anual',
+    name: 'Plano Anual',
+    price: 'R$ 79,90',
+    period: '/mês',
+    highlight: 'Condições especiais para contratos de longa duração.',
+    featured: false,
+    features: [
+      'Acesso livre à musculação e cardio',
+      'Vestiários com armários',
+      'Avaliação física mensal',
+      'Acesso à sala de treino funcional',
+      'Matrícula gratuita',
+      '2 meses de bônus no contrato anual',
+    ],
+  },
 ]
 
 // Itens comuns a todos os planos
 export const planFeatures = [
   'Acesso à academia conforme as regras do plano',
-  'Equipamentos de musculação e cardio',
 ]
 
 export const schedule = [
